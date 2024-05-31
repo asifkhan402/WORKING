@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.AS{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+div{
+    background-color: white;
+}
+
+.dd{
+    color: black;
+
+}
+
+.ee{
+    color: black;
+}
+
+@keyframe{
+    form{
+        .qq{
+            background-color::bl
+        }
+    }
+
+    to
+}
+
+.qq:hover{
+    animation: both 2s ease-in 0s black;
+}
+   
