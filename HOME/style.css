@@ -1,39 +1,25 @@
 *{
-    margin: 0;
+    margin:0;
     padding: 0;
+    font-family: san-serif;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background:rgba(0, 0, 0, 0.5) url('ham.webp')  center center fixed;
+    background-blend-mode:darken ;
+    background-size: cover;
+    background-position: center;
+}
+.main{
+    padding: 0.8%;
 }
 
-.AS{
+
+.nava{
+    padding: 24px 0;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap
     
 }
-
-div{
-    background-color: white;
-}
-
-.dd{
-    color: black;
-
-}
-
-.ee{
-    color: black;
-}
-
-@keyframe{
-    form{
-        .qq{
-            background-color::bl
-        }
-    }
-
-    to
-}
-
-.qq:hover{
-    animation: both 2s ease-in 0s black;
-}
-   
