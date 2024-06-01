@@ -16,10 +16,163 @@ body{
 }
 
 
-.nava{
-    padding: 24px 0;
+nav{
+    padding: 2px 0;
     display: flex;
     align-items: center;
-    flex-wrap: wrap
+    flex-wrap: wrap;
+ 
+}
+.logo{
+    width: 150px;
+    font-size: 30px;
+    color: yellow;
+    cursor: pointer;
+
+
+}
+.nava{
+  display: flex;  
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+}
+.nava a{
+    margin: 10px;
+    text-decoration: none; 
+    color: white;
+    transition: 2s;
     
+}
+.nava a:hover{
+    margin: 10px;
+    background-color: black;
+    padding: 10px;
+}
+
+
+.nava .btn{
+    background: yellow;
+    color: black;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+.content{
+    margin-top: 150px;
+    margin-left: 150px;
+    color: aliceblue;
+}
+
+.content h1{
+    font-size: 60px;
+}
+
+.search{
+    background: white;
+    width: fit-content;
+    margin: 20px 0;
+    padding: 20px 20px;
+    display: flex;
+    align-items: center;
+
+}
+.search input{
+    background: transparent;
+    width: 500px;
+    border: 0;
+    outline: none;
+}
+
+button{
+    padding: 10px 20px;
+    margin-left: 17%;
+    background-color: yellow;
+    cursor: pointer;
+    
+}
+.foam{
+    height: 400px;
+    width: 400px;
+    position:absolute;
+    top: 18%;
+    left: 65%;
+    background:rgb(31, 32, 33) ;
+}
+.foam ::placeholder{
+    color: rgb(255, 255, 255)
+}
+
+.box input{
+    width: 75%;
+    margin: 10px;
+    margin-top: 18px;
+    margin-left: 21px;
+    padding: 13px 19px;
+    background: transparent;
+    border-bottom: 1px solid yellow;
+}
+.link{
+    width: 75%;
+    background: yellow;
+    padding: 11px;
+    border-radius: 6px;
+    
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 23px;
+    position: relative;
+    bottom: 29px;
+    
+}
+.link a{
+    text-decoration: none;
+    font-size: medium;
+    color: rgb(8, 8, 8);
+}
+.linl1{
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+    
+    
+}
+
+.linl1 a{
+    color: yellow;
+    text-decoration: none;
+    font-size: 20px;
+}
+.link2{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    font-size: large;
+    background: yellow;
+    border-radius: 7px;
+    width: 300px;
+    margin-top: 24px;
+    position: relative;
+    left: 17px;
+
+}
+.link2 a{
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+}
+.search input{
+   font-size: 20px;
+}
+.hamid{
+    text-align: left;
+    font-size: 300%;
+    padding: 50px;
+    margin: 70px;
+    color: yellow;
+    background: yellow;
+    width: 15%;
+    height: 15%;
+}
+.hamid a{
+    text-decoration: none;
+    color: black;
 }
