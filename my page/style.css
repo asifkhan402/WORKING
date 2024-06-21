@@ -1,0 +1,15 @@
+*{
+    background-color: aliceblue;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black url("ima.webp") center center fixed;
+    background-size: cover;
+    background-position: center;
+}
+.main{
+    padding: 0.8%;
+}
